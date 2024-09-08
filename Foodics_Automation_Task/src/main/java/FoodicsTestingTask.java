@@ -17,9 +17,9 @@ public class FoodicsTestingTask {
             // Step 1 - Open Amazon website and login
             driver.get("https://www.amazon.eg/");
             driver.findElement(By.id("nav-link-accountList")).click();
-            driver.findElement(By.id("ap_email")).sendKeys("your-email@example.com");
+            driver.findElement(By.id("ap_email")).sendKeys("kholah.foodics.test@gmail.com");
             driver.findElement(By.id("continue")).click();
-            driver.findElement(By.id("ap_password")).sendKeys("your-password");
+            driver.findElement(By.id("ap_password")).sendKeys("Foodics1100");
             driver.findElement(By.id("signInSubmit")).click();
 
             // Step 2 - Open "All" menu
