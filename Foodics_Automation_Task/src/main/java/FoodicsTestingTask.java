@@ -57,10 +57,9 @@ public class FoodicsTestingTask {
         }
     }
 
-    // Additional helper methods for steps f.6 to i.9 should be implemented here
 
     private static void addProductsBelow15kToCart(WebDriver driver) {
-        // Logic to add products to cart
+        //  Add products to cart
     	
     	 boolean productAdded = false;
          while (!productAdded) {
@@ -86,9 +85,7 @@ public class FoodicsTestingTask {
     }
 
     private static void verifyProductsInCart(WebDriver driver) {
-        // Logic to verify products in the cart
-    	
-    	 // Step g: Verify all products are added to the cart
+    //Verify all products are added to the cart
         driver.findElement(By.id("nav-cart")).click();
     }
 
